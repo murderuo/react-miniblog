@@ -108,7 +108,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_1.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: '30px', width: '30px' }}
+                            style={{ height: "30px", width: "30px" }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -142,7 +142,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_2.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: '30px', width: '30px' }}
+                            style={{ height: "30px", width: "30px" }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -176,7 +176,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_3.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: '30px', width: '30px' }}
+                            style={{ height: "30px", width: "30px" }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -212,7 +212,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_1.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: '30px', width: '30px' }}
+                            style={{ height: "30px", width: "30px" }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -246,7 +246,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_2.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: '30px', width: '30px' }}
+                            style={{ height: "30px", width: "30px" }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -280,7 +280,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_3.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: '30px', width: '30px' }}
+                            style={{ height: "30px", width: "30px" }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -314,7 +314,7 @@ function Main() {
                     style={{
                       backgroundImage:
                         'url("https://preview.colorlib.com/theme/miniblog/images/img_1.jpg")',
-                      backgroundSize: 'cover',
+                      backgroundSize: "cover",
                     }}
                   >
                     <div class="post-categories mb-3">
@@ -335,7 +335,7 @@ function Main() {
                     style={{
                       backgroundImage:
                         'url("https://preview.colorlib.com/theme/miniblog/images/img_2.jpg")',
-                      backgroundSize: 'cover',
+                      backgroundSize: "cover",
                     }}
                   >
                     <div class="post-categories mb-3">
@@ -354,7 +354,7 @@ function Main() {
                     style={{
                       backgroundImage:
                         'url("https://preview.colorlib.com/theme/miniblog/images/img_3.jpg")',
-                      backgroundSize: 'cover',
+                      backgroundSize: "cover",
                     }}
                   >
                     <div class="post-categories mb-3">
@@ -375,7 +375,7 @@ function Main() {
                 style={{
                   backgroundImage:
                     'url("https://preview.colorlib.com/theme/miniblog/images/img_4.jpg")',
-                  backgroundSize: 'cover',
+                  backgroundSize: "cover",
                 }}
               >
                 <div class="post-categories mb-3">
@@ -406,7 +406,10 @@ function Main() {
                       className="form-control"
                       aria-describedby="basic-addon2"
                     ></input>
-                    <span class="input-group-text bg-primary text-white fw-bold" id="basic-addon2">
+                    <span
+                      class="input-group-text bg-primary text-white fw-bold"
+                      id="basic-addon2"
+                    >
                       Subscribe
                     </span>
                   </div>
@@ -415,6 +418,7 @@ function Main() {
             </div>
           </div>
         </div>
+        <div className="dark-bg"></div>
       </div>
     </>
   );

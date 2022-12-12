@@ -189,3 +189,11 @@ body {
   font-size: 0.6rem;
   text-transform: uppercase;
 }
+.footer {
+  margin: 30px 0;
+}
+
+
+.dark-bg {
+  background-color: #333333;
+}
