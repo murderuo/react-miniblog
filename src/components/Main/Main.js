@@ -1,7 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faB } from '@fortawesome/free-solid-svg-icons';
 import {
-
-} from "@fortawesome/free-solid-svg-icons";
+  faFacebook,
+  faTwitter,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
 
 function Main() {
   return (
@@ -113,7 +116,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_1.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: "30px", width: "30px" }}
+                            style={{ height: '30px', width: '30px' }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -147,7 +150,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_2.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: "30px", width: "30px" }}
+                            style={{ height: '30px', width: '30px' }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -181,7 +184,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_3.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: "30px", width: "30px" }}
+                            style={{ height: '30px', width: '30px' }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -217,7 +220,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_1.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: "30px", width: "30px" }}
+                            style={{ height: '30px', width: '30px' }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -251,7 +254,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_2.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: "30px", width: "30px" }}
+                            style={{ height: '30px', width: '30px' }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -285,7 +288,7 @@ function Main() {
                           <img
                             src="https://preview.colorlib.com/theme/miniblog/images/person_3.jpg.webp"
                             className="rounded-circle"
-                            style={{ height: "30px", width: "30px" }}
+                            style={{ height: '30px', width: '30px' }}
                           />
                           <span>By Uğur OKUR</span>
                           <span>July 19, 2019</span>
@@ -319,7 +322,7 @@ function Main() {
                     style={{
                       backgroundImage:
                         'url("https://preview.colorlib.com/theme/miniblog/images/img_1.jpg")',
-                      backgroundSize: "cover",
+                      backgroundSize: 'cover',
                     }}
                   >
                     <div class="post-categories mb-3">
@@ -340,7 +343,7 @@ function Main() {
                     style={{
                       backgroundImage:
                         'url("https://preview.colorlib.com/theme/miniblog/images/img_2.jpg")',
-                      backgroundSize: "cover",
+                      backgroundSize: 'cover',
                     }}
                   >
                     <div class="post-categories mb-3">
@@ -359,7 +362,7 @@ function Main() {
                     style={{
                       backgroundImage:
                         'url("https://preview.colorlib.com/theme/miniblog/images/img_3.jpg")',
-                      backgroundSize: "cover",
+                      backgroundSize: 'cover',
                     }}
                   >
                     <div class="post-categories mb-3">
@@ -380,7 +383,7 @@ function Main() {
                 style={{
                   backgroundImage:
                     'url("https://preview.colorlib.com/theme/miniblog/images/img_4.jpg")',
-                  backgroundSize: "cover",
+                  backgroundSize: 'cover',
                 }}
               >
                 <div class="post-categories mb-3">
@@ -423,13 +426,13 @@ function Main() {
             </div>
           </div>
         </div>
-        <div className="dark-bg">
+        <div className="dark-bg mt-4">
           <div className="container">
             <div className="row mb-5">
-              <div className="col-4">
-                <div className="d-flex flex-column text-light my-5">
+              <div className="col-lg-4 col-md-6 col-sm-12 ">
+                <div className="d-flex flex-column text-light my-5 align-items-sm-center">
                   <div className="fs-6 fw-bold mb-4">About</div>
-                  <div className="footer-text-color my-4">
+                  <div className="footer-text-color mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Placeat reprehenderit magnam deleniti quasi saepe,
                     consequatur atque sequi delectus dolore veritatis obcaecati
@@ -438,8 +441,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-              <div className="col-4 ">
-                <div className="d-flex justify-content-center gap-4 my-5">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="d-flex justify-content-center gap-4 my-5 ">
                   <div className="fs-6 text-light">
                     <ul className="list-unstyled d-flex flex-column  gap-2 footer-links-color">
                       <li>About Us</li>
@@ -458,24 +461,34 @@ function Main() {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
-                <div className="d-flex flex-column text-light my-5">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className="d-flex flex-column text-light my-5 align-items-sm-center ">
                   <div className="fs-6 fw-bold mb-4">Connect With Us</div>
-                  <div>
+                  <div className="d-flex gap-2 ">
                     <a href="#">
-                      <FontAwesomeIcon icon={faCake} color={"white"} />{}
-                      {/* <FontAwesomeIcon icon="fa-brands fa-facebook-f" /> */}
-                      <span className="icon-fb p-2"></span>
+                      <span className="p-2">
+                        <FontAwesomeIcon icon={faFacebook} color={'white'} />
+                      </span>
                     </a>
                     <a href="#">
-                      <span className="icon-tw"></span>
+                      <span className="p-2">
+                        <FontAwesomeIcon icon={faTwitter} color={'white'} />
+                      </span>
                     </a>
                     <a href="#">
-                      <span className="icon-ins"></span>
+                      <span className="p-2">
+                        <FontAwesomeIcon icon={faInstagram} color={'white'} />
+                      </span>
                     </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="copyright d-flex justify-content-center text-center">
+              <p>
+                Copyright © 2022 All rights reserved | This template is made
+                with by React & Bootstrap 5
+              </p>
             </div>
           </div>
         </div>
