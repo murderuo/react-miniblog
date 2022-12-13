@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+
+} from "@fortawesome/free-solid-svg-icons";
+
 function Main() {
   return (
     <>
@@ -418,7 +423,62 @@ function Main() {
             </div>
           </div>
         </div>
-        <div className="dark-bg"></div>
+        <div className="dark-bg">
+          <div className="container">
+            <div className="row mb-5">
+              <div className="col-4">
+                <div className="d-flex flex-column text-light my-5">
+                  <div className="fs-6 fw-bold mb-4">About</div>
+                  <div className="footer-text-color my-4">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Placeat reprehenderit magnam deleniti quasi saepe,
+                    consequatur atque sequi delectus dolore veritatis obcaecati
+                    quae, repellat eveniet omnis, voluptatem in. Soluta,
+                    eligendi, architecto.
+                  </div>
+                </div>
+              </div>
+              <div className="col-4 ">
+                <div className="d-flex justify-content-center gap-4 my-5">
+                  <div className="fs-6 text-light">
+                    <ul className="list-unstyled d-flex flex-column  gap-2 footer-links-color">
+                      <li>About Us</li>
+                      <li>Advertise</li>
+                      <li>Careers</li>
+                      <li>Subscribes</li>
+                    </ul>
+                  </div>
+                  <div className="fs-6 text-light">
+                    <ul className="list-unstyled d-flex flex-column  gap-2 footer-links-color">
+                      <li>Travel</li>
+                      <li>Lifestyle</li>
+                      <li>Sports</li>
+                      <li>Nature</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="col-4">
+                <div className="d-flex flex-column text-light my-5">
+                  <div className="fs-6 fw-bold mb-4">Connect With Us</div>
+                  <div>
+                    <a href="#">
+                      <FontAwesomeIcon icon={faCake} color={"white"} />{}
+                      {/* <FontAwesomeIcon icon="fa-brands fa-facebook-f" /> */}
+                      <span className="icon-fb p-2"></span>
+                    </a>
+                    <a href="#">
+                      <span className="icon-tw"></span>
+                    </a>
+                    <a href="#">
+                      <span className="icon-ins"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
